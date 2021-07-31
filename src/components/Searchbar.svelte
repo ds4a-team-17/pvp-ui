@@ -14,8 +14,8 @@
     predictions = [
       {
         description: description,
-        value: data.prediction,
-        unit: data.unit,
+        value: data.predictionCubicWeight,
+        unit: data.cubicWeightUnit,
         probabilities: data.probabilities,
       },
       ...predictions,
