@@ -6,6 +6,6 @@
 
 <Searchbar bind:predictions />
 
-{#each predictions as { description, value, unit, probabilities }}
-  <PredictionCard {description} {value} {unit} {probabilities} />
+{#each predictions as prediction }
+  <PredictionCard {prediction} />
 {/each}
