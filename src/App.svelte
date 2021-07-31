@@ -6,7 +6,7 @@
 	import Home from "./pages/Home.svelte"
 </script>
 
-<Router>
+<Router basepath="/pvp-ui">
 	<Navbar/>
 	<div class="container">
 		<Route path="/" component={Home} />
